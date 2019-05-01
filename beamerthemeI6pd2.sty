@@ -61,33 +61,36 @@
   \leavevmode
 
   \begin{beamercolorbox}[wd=\paperwidth]{headline}
-    \begin{columns}[T]
-      \begin{column}{.01\paperwidth}
-      \end{column}
-      \begin{column}{.05\paperwidth}
-	\vskip8ex
-	\begin{center}
+  	\center
+  	\vskip2ex
+  	\usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}}
+	\begin{columns}[T]
+	  \begin{column}{.01\paperwidth}
+	  \end{column}
+	  \begin{column}{.05\paperwidth}
+		\vskip2ex
+		\begin{center}
 		\includegraphics[height=7cm]{figures/logo.png}
-	\end{center}
-	\vskip2ex
+		\end{center}
+		\vskip2ex
 	\end{column}
-      \begin{column}{.65\paperwidth}
-        \vskip4ex
-        \raggedleft
-        \usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
-        \usebeamercolor{author in headline}{\color{fg}\large{\insertauthor}\\[1ex]}
-        \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}     
-      \end{column}
-      \begin{column}{.005\paperwidth}
-      \end{column}
-        \begin{column}{.25\paperwidth}
-  	\vskip13ex
-  	\begin{center}
+	\begin{column}{.65\paperwidth}
+		\vskip6ex
+		\raggedleft
+%		\usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
+		\usebeamercolor{author in headline}{\color{fg}\Large{\insertauthor}\\[1ex]}
+		\usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}     
+	\end{column}
+	\begin{column}{.005\paperwidth}
+	\end{column}
+	\begin{column}{.25\paperwidth}
+		\vskip7ex
+		\begin{center}
 		\includegraphics[width=16cm]{figures/labLogo.pdf}
-  	\end{center}
-  \end{column}
-  
-    \end{columns}
+		\end{center}
+	\end{column}
+	
+	\end{columns}
     \vskip2ex
   \end{beamercolorbox}
 
