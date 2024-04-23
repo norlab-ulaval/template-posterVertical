@@ -45,95 +45,95 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setbeamertemplate{block begin}{
-	\vskip.75ex
-	\begin{beamercolorbox}[ht=4ex,leftskip=-1em,colsep*=.75ex]{block title}%
-		\usebeamerfont*{block title}%
-		{\vskip1ex\phantom{Gg}\insertblocktitle}% phantom because of baseline problem
-	\end{beamercolorbox}%
-	{\ifbeamercolorempty[bg]{block body}{}{\nointerlineskip\vskip-0.5pt}}%
-	\usebeamerfont{block body}%
-	\begin{beamercolorbox}[leftskip=1em,colsep*=.75ex,sep=0.5ex,vmode]{block body}%
-		\ifbeamercolorempty[bg]{block body}{\vskip-.25ex}{\vskip-.75ex}\vbox{}%
-	}
-	\setbeamertemplate{block end}{
-	\end{beamercolorbox}
+\vskip.75ex
+\begin{beamercolorbox}[ht=4ex,leftskip=-1em,colsep*=.75ex]{block title}%
+  \usebeamerfont*{block title}%
+  {\vskip1ex\phantom{Gg}\insertblocktitle}% phantom because of baseline problem
+\end{beamercolorbox}%
+{\ifbeamercolorempty[bg]{block body}{}{\nointerlineskip\vskip-0.5pt}}%
+\usebeamerfont{block body}%
+\begin{beamercolorbox}[leftskip=1em,colsep*=.75ex,sep=0.5ex,vmode]{block body}%
+  \ifbeamercolorempty[bg]{block body}{\vskip-.25ex}{\vskip-.75ex}\vbox{}%
+  }
+  \setbeamertemplate{block end}{
+\end{beamercolorbox}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setbeamertemplate{headline}{  
-	\leavevmode
-	
-	\begin{beamercolorbox}[wd=\paperwidth]{headline}
-		\center
-		\vskip1ex
-		\usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}}
-		\begin{columns}[T]
-			%\begin{column}{.001\paperwidth}
-			%\end{column}
-			\begin{column}{.01\paperwidth}
-				\vskip11ex
-				\begin{center}
-					\includegraphics[height=3.5cm]{figures/labUlavalLogo.pdf}
-				\end{center}
-				%\vskip9ex
-			\end{column}
-			\begin{column}{.7\paperwidth}
-				\vskip2ex
-				\raggedleft
-				%		\usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
-				\usebeamercolor{author in headline}{\color{fg}\Large{\insertauthor}\\[1ex]}
-				\usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}     
-			\end{column}
-			\begin{column}{.005\paperwidth}
-			\end{column}
-			\begin{column}{.125\paperwidth}
-				\vskip11ex
-				\begin{center}
-					\includegraphics[height=3.5cm]{figures/icraLogo.png}
-				\end{center}
-			\end{column}
-			
-		\end{columns}
-		\vskip2ex
-	\end{beamercolorbox}
-	
-	\begin{beamercolorbox}[wd=\paperwidth]{lower separation line head}
-		\rule{0pt}{1pt}
-	\end{beamercolorbox}
+\setbeamertemplate{headline}{
+  \leavevmode
+
+  \begin{beamercolorbox}[wd=\paperwidth]{headline}
+    \center
+    \vskip1ex
+    \usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}}
+    \begin{columns}[T]
+      %\begin{column}{.001\paperwidth}
+      %\end{column}
+      \begin{column}{.01\paperwidth}
+        \vskip11ex
+        \begin{center}
+          \includegraphics[height=3.5cm]{figures/labUlavalLogo.pdf}
+        \end{center}
+        %\vskip9ex
+      \end{column}
+      \begin{column}{.7\paperwidth}
+        \vskip2ex
+        \raggedleft
+        %		\usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
+        \usebeamercolor{author in headline}{\color{fg}\Large{\insertauthor}\\[1ex]}
+        \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}
+      \end{column}
+      \begin{column}{.005\paperwidth}
+      \end{column}
+      \begin{column}{.125\paperwidth}
+        \vskip11ex
+        \begin{center}
+          \includegraphics[height=3.5cm]{figures/conferenceLogo.png}
+        \end{center}
+      \end{column}
+
+    \end{columns}
+    \vskip2ex
+  \end{beamercolorbox}
+
+  \begin{beamercolorbox}[wd=\paperwidth]{lower separation line head}
+    \rule{0pt}{1pt}
+  \end{beamercolorbox}
 }
 
-%  \setbeamertemplate{headline}{  
-	%    \leavevmode
-	%    \begin{beamercolorbox}[sep=0.5cm,wd=.8\paperwidth]{headline}
-		%      \usebeamercolor{title in headline}{\raggedleft\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
-		%      \usebeamercolor{author in headline}{\raggedleft\color{fg}\large{\insertauthor}\\[1ex]}
-		%      \usebeamercolor{institute in headline}{\raggedleft\color{fg}\large{\insertinstitute}\\[1ex]}     
-		%    \end{beamercolorbox}%
-	%    \begin{beamercolorbox}[wd=.2\paperwidth]{logo in headline}
-		%      \centering
-		%      \LARGE{LOGO}
-		%    \end{beamercolorbox}  
-	
-	
-	%}
+%  \setbeamertemplate{headline}{
+%    \leavevmode
+%    \begin{beamercolorbox}[sep=0.5cm,wd=.8\paperwidth]{headline}
+%      \usebeamercolor{title in headline}{\raggedleft\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
+%      \usebeamercolor{author in headline}{\raggedleft\color{fg}\large{\insertauthor}\\[1ex]}
+%      \usebeamercolor{institute in headline}{\raggedleft\color{fg}\large{\insertinstitute}\\[1ex]}
+%    \end{beamercolorbox}%
+%    \begin{beamercolorbox}[wd=.2\paperwidth]{logo in headline}
+%      \centering
+%      \LARGE{LOGO}
+%    \end{beamercolorbox}
+
+
+%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setbeamertemplate{footline}{
-	\begin{beamercolorbox}[wd=\paperwidth]{upper separation line foot}
-		\rule{0pt}{3pt}
-	\end{beamercolorbox}
-	
-	\leavevmode%
-	\begin{beamercolorbox}[ht=4ex,leftskip=1em,rightskip=1em]{author in head/foot}%
-		\texttt{\leftfoot}
-		\hfill
-		\texttt{\rightfoot}
-		\vskip1ex
-	\end{beamercolorbox}
-	\vskip0pt%
-	\begin{beamercolorbox}[wd=\paperwidth]{lower separation line foot}
-		\rule{0pt}{3pt}
-	\end{beamercolorbox}
+  \begin{beamercolorbox}[wd=\paperwidth]{upper separation line foot}
+    \rule{0pt}{3pt}
+  \end{beamercolorbox}
+
+  \leavevmode%
+  \begin{beamercolorbox}[ht=4ex,leftskip=1em,rightskip=1em]{author in head/foot}%
+    \texttt{\leftfoot}
+    \hfill
+    \texttt{\rightfoot}
+    \vskip1ex
+  \end{beamercolorbox}
+  \vskip0pt%
+  \begin{beamercolorbox}[wd=\paperwidth]{lower separation line foot}
+    \rule{0pt}{3pt}
+  \end{beamercolorbox}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -155,11 +155,11 @@
 \setbeamerfont{itemize/enumerate subsubbody}{size=\normalsize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Local Variables: 
+%%% Local Variables:
 %%% mode: latex
 %%% TeX-PDF-mode: t
 %%% TeX-master: "poster-surf"
-%%% End: 
+%%% End:
 
 % set bibliography style
 \setbeamertemplate{bibliography item}[text]
