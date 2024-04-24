@@ -62,24 +62,29 @@
       %----------------------------------------------------------------------------------------
 
       \begin{block}{Context \& Motivations}
-        blablabla
+        \begin{itemize}
+          \item blablabla
+        \end{itemize}
       \end{block}
 
       \begin{block}{Block}
         \begin{columns} % Subdivide the first main column
-          \begin{column}{.58\textwidth} % The first subdivided column within the first main column
+
+          \begin{minipage}{.58\textwidth} % The first subdivided column within the first main column
             \begin{itemize}
               \item item1
               \item item2
             \end{itemize}
-          \end{column}
-          \begin{column}{.42\textwidth} % The second subdivided column within the first main column
+          \end{minipage}
+
+          \begin{minipage}{.42\textwidth} % The second subdivided column within the first main column
             \centering
             \begin{figure}
               \includegraphics[width=0.8\linewidth]{example-image-a}
               \caption{caption}
             \end{figure}
-          \end{column}
+          \end{minipage}
+
         \end{columns} % End of the subdivision
       \end{block}
 
